@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         int N = 9;
-
+        
         // 인접리스트 생성
         List<Integer>[] adjList = new ArrayList[N];
         for (int i = 0; i < N; i++) {
